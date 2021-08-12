@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
-app.get('/',(req,res) => {
+app.get('/', (req,res) => {
 
-    res.send("nodeapp-bueno")
+    res.send("Rodadando nodeapp na porta do nginx")
 })
 
 app.listen(3000, () => {

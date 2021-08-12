@@ -6,8 +6,8 @@ services:
     ports: 
     - 8080:80
     volumes: 
-    - ./nginx:/usr/share/nginx/html/
+    - ./nginx/:/usr/share/nginx/html/
    nodeapp:
       build: nodeapp/
       volumes: 
-      - ./nodeapp:/usr/src/app
+      - ./nodeapp/:/usr/src/app
